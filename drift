@@ -1,0 +1,8 @@
+#!/bin/bash
+
+x=$(pwd)
+echo "Creating Project : $1"
+
+sudo mkdir "$x"/$1
+
+sudo cp -R /etc/drift-resource-files "$x"/$1/app
