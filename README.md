@@ -10,11 +10,17 @@ Official Drift Linux Repository
 
 # How to use?
 
-## drift command
+## drift command : Create a new project
 
 ##### drift project-name
 
 
-## driftc
-##### driftc project-name
-*Note: You need to be on top of your project folder to make the driftc work*
+## driftc : Compile your source code
+##### driftc 
+
+
+# F.A.Q.
+
+## Where to write codes?
+*All your codes are placed in project-name/app/src/*
+
