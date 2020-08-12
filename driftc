@@ -1,8 +1,10 @@
 #!/bin/bash
 
 x=$(pwd)
-echo "Creating Project : $1"
+echo "Building Project : $x"
 
-sudo cp -R $1/app/src/ $1/app/build/main/
+sudo cp -R app/src/ app/build/main/
 
 echo "Building complete"
+
+"$x"/app/build/App-Debug
