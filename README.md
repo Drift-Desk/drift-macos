@@ -1,5 +1,5 @@
-# drift-linux
-Official Drift Linux Repository
+# drift-macos
+Official Drift macos Repository
 
 # master
 #### Master is the most unstable branch
